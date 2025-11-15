@@ -4,8 +4,7 @@ This tool searches YouTube for channels related to one or more keywords, filters
 
 ✔ Multi-keyword search (from file)  
 ✔ Filter by subscriber count  
-✔ Optional country filter (ISO format, e.g., `US`, `JP`)  
-✔ Low-quota design (uses `activities.list`, avoids expensive `search.list`)  
+✔ Optional country filter (ISO format, e.g., `US`, `JP`)   
 ✔ CSV export  
 ✔ Limit number of processed channels  
 ✔ Hard-coded API key supported
