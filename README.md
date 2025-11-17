@@ -16,3 +16,7 @@ python3 daren_yt.py --keywords-file keywords_kr.txt --min-subs 5000 --save-csv k
 INS: 
 example: 
 python3 ins_apify.py --hashtags-file hashtagfile.txt   --results-per-tag 200  --output-posts ig_hash.csv --output-users ig_users.csv
+
+TT:
+example:
+python3 tt_apify.py --token apify_api_xxx --hashtags-file hashtags.txt --search-file keywords.txt  --results-per-page 20 --output-csv tiktok_search_AI.csv
