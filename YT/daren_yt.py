@@ -4,10 +4,6 @@ import time
 import datetime
 import csv
 
-# ----------------------------------------------------------
-# 🔑 Put your API key here
-API_KEY = "AIzaSyD_4lVAx66WBKUvoQyqAr4FRmR_bZgNKkM"
-# ----------------------------------------------------------
 
 
 def load_keywords(path):
@@ -325,4 +321,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
