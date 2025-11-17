@@ -8,3 +8,9 @@ This tool searches YouTube for channels related to one or more keywords, filters
 ✔ CSV export  
 ✔ Limit number of processed channels  
 ✔ Hard-coded API key supported
+
+YT: will run everyday, need update keyword periodically 
+example:
+python3 daren_yt.py --keywords-file keywords_kr.txt --min-subs 5000 --save-csv kr_3d_youtuber_111725.csv 
+
+INS:
