@@ -3,8 +3,9 @@ from googleapiclient.discovery import build
 import time
 import datetime
 import csv
+import os
 
-
+API_KEY = os.getenv("API_KEY")
 
 def load_keywords(path):
     keywords = []
