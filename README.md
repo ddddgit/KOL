@@ -11,11 +11,17 @@ This tool searches YouTube for channels related to one or more keywords, filters
 
 YT:  
 example:
-python3 daren_yt.py --keywords-file keywords_kr.txt --min-subs 5000 --save-csv kr_3d_youtuber_111725.csv 
+default 50 video for each keywords
+export API_KEY="xxx"
+python3 tuberfinder.py --keywords-file keywords_kr.txt --min-subs 5000 --save-csv tuberslist.csv 
 
 INS: 
 example: 
-python3 ins_apify.py --hashtags-file hashtagfile.txt   --results-per-tag 200  --output-posts ig_hash.csv --output-users ig_users.csv
+export APIFY_TOKEN="xxx"
+python3 ins_apify_bio.py --hashtags-file hashtagfile.txt   --results-per-tag 200  --output-posts ig_posts.csv --output-users ig_users.csv
+
+INS_M
+LOCAL ONLY
 
 TT:
 example:
